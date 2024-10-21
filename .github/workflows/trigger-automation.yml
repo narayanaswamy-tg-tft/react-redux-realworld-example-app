@@ -3,7 +3,7 @@ name: Trigger Automation Tests
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   trigger-automation:
