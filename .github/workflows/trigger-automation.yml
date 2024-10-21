@@ -3,7 +3,7 @@ name: Trigger Automation Tests
 on:
   push:
     branches:
-      - dev  # Or any branch you want to trigger the tests on
+      - main
 
 jobs:
   trigger-automation:
